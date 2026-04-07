@@ -1,0 +1,27 @@
+title: Chris Wage
+description: "Software engineer, photographer, tinkerer."
+url: https://chriswage.com
+baseurl: ""
+
+permalink: pretty
+
+markdown: CommonMarkGhPages
+commonmark:
+  options: ["SMART", "FOOTNOTES", "HARDBREAKS"]
+  extensions: ["strikethrough", "autolink", "table"]
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-commonmark-ghpages
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Dockerfile
+  - docker-compose.yml
+  - vendor
+  - README.md
+  - LICENSE
+  - .gitignore
+  - CLAUDE.md
