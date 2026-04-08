@@ -5,7 +5,7 @@ title: Home
 
 ## Who Am I?
 
-I'm Chris Wage, you can call me `cwage`, most people do. Professionally, I'm a systems and security engineer with 25 years in the industry, most recently at GitHub. Personally, I'm a chronic autodidact with a long roster of hobbies and a love of figuring things out.
+I'm Chris Wage. You can call me `cwage`, most people do. Professionally, I'm a systems and security engineer with 25 years in the industry, most recently at GitHub. Personally, I'm a chronic autodidact with a long roster of hobbies and a love of figuring things out.
 
 ## Elsewhere
 
