@@ -11,8 +11,8 @@ I'm Chris Wage. You can call me `cwage`, most people do. Professionally, I'm a s
 
 {% for item in site.data.now %}
 <div class="now-item">
-{% if item.image %}<a href="{{ item.url }}"><img src="{{ item.image }}" alt="{{ item.title }}" class="now-image"></a>{% endif %}
-<p><strong><a href="{{ item.url }}">{{ item.title }}</a></strong> <span class="now-type">{{ item.type }}</span><br>{{ item.blurb }}</p>
+{% if item.image %}<a href="{{ item.url | uri_escape }}"><img src="{{ item.image | uri_escape }}" alt="{{ item.title | escape }}" class="now-image"></a>{% endif %}
+<p><strong><a href="{{ item.url | uri_escape }}">{{ item.title | escape }}</a></strong> <span class="now-type">{{ item.type | escape }}</span><br>{{ item.blurb | escape }}</p>
 </div>
 {% endfor %}
 
