@@ -38,3 +38,25 @@ h2:first-child {
 p {
   margin-bottom: 0.75rem;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.now-item {
+  margin-bottom: 1rem;
+}
+
+.now-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 0.5rem;
+  border-radius: 2px;
+}
+
+.now-type {
+  font-size: 0.8rem;
+  color: #666;
+  text-transform: lowercase;
+}

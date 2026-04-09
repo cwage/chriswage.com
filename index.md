@@ -7,6 +7,15 @@ title: Home
 
 I'm Chris Wage. You can call me `cwage`, most people do. Professionally, I'm a systems and security engineer with 25 years in the industry, most recently at GitHub. Personally, I'm a chronic autodidact with a long roster of hobbies and a love of figuring things out.
 
+## What I'm Up To
+
+{% for item in site.data.now %}
+<div class="now-item">
+{% if item.image %}<a href="{{ item.url }}"><img src="{{ item.image }}" alt="{{ item.title }}" class="now-image"></a>{% endif %}
+<p><strong><a href="{{ item.url }}">{{ item.title }}</a></strong> <span class="now-type">{{ item.type }}</span><br>{{ item.blurb }}</p>
+</div>
+{% endfor %}
+
 ## Elsewhere
 
 **[quietlife.net](https://quietlife.net)**: Personal blog. 25 years of opinions: some embarrassing, some objectively correct.
