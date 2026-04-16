@@ -99,14 +99,89 @@ img {
 .now-image {
   max-width: 100%;
   height: auto;
-  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
   border-radius: 2px;
 }
 
-.now-type {
+.now-meta {
   font-size: 0.8rem;
   color: #666;
   text-transform: lowercase;
+}
+
+/* Now carousel (JS-enhanced) */
+.now-carousel {
+  border: 1px solid #e5e5e5;
+  background: #fafafa;
+  border-radius: 4px;
+  padding: 1rem 1.25rem;
+}
+
+.now-carousel .now-item:last-child {
+  margin-bottom: 0;
+}
+
+.now-carousel .now-controls {
+  display: none;
+}
+
+.now-carousel.js-enabled .now-item {
+  display: none;
+  margin-bottom: 0.75rem;
+}
+
+.now-carousel.js-enabled .now-item.is-active {
+  display: block;
+}
+
+.now-carousel.js-enabled .now-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.now-nav {
+  background: none;
+  border: 1px solid #ddd;
+  color: #555;
+  font-size: 1.1rem;
+  line-height: 1;
+  padding: 0.25rem 0.6rem;
+  cursor: pointer;
+  border-radius: 2px;
+  font-family: inherit;
+}
+
+.now-nav:hover {
+  color: #222;
+  border-color: #888;
+}
+
+.now-dots {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.now-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  padding: 0;
+  border: 1px solid #bbb;
+  background: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.now-dot.is-active {
+  background: #555;
+  border-color: #555;
+}
+
+.now-dot:hover {
+  border-color: #555;
 }
 
 /* Contact icons */

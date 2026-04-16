@@ -13,12 +13,24 @@ I'm Chris Wage. You can call me `cwage`, most people do. Professionally, I'm a s
 
 A current sample of whatever bullshit I'm on:
 
-{% for item in site.data.now %}
-<div class="now-item">
+<div class="now-carousel" data-now-carousel>
+{% if site.data.now.size > 1 %}
+<div class="now-controls" role="group" aria-label="Now carousel navigation">
+<button type="button" class="now-nav now-prev" data-now-prev aria-label="Previous item">&lsaquo;</button>
+<div class="now-dots" data-now-dots>{%- for item in site.data.now reversed %}<button type="button" class="now-dot{% if forloop.first %} is-active{% endif %}" data-now-dot="{{ forloop.index0 }}" aria-label="Go to item {{ forloop.index }}"{% if forloop.first %} aria-current="true"{% endif %}></button>{%- endfor %}</div>
+<button type="button" class="now-nav now-next" data-now-next aria-label="Next item">&rsaquo;</button>
+</div>
+{% endif %}
+<div class="now-slides">
+{% for item in site.data.now reversed %}
+<div class="now-item{% if forloop.first %} is-active{% endif %}" data-now-slide>
+<p><strong><a href="{{ item.url | uri_escape }}">{{ item.title | escape }}</a></strong> <span class="now-meta">{{ item.type | escape }}{% if item.date %} &middot; {{ item.date | date: "%Y-%m-%d" }}{% endif %}</span><br>{{ item.blurb | escape }}</p>
 {% if item.image %}<a href="{{ item.url | uri_escape }}"><img src="{{ item.image | uri_escape }}" alt="{{ item.title | escape }}" class="now-image"></a>{% endif %}
-<p><strong><a href="{{ item.url | uri_escape }}">{{ item.title | escape }}</a></strong> <span class="now-type">{{ item.type | escape }}</span><br>{{ item.blurb | escape }}</p>
 </div>
 {% endfor %}
+</div>
+</div>
+<script src="{{ '/assets/js/now-carousel.js' | relative_url }}" defer></script>
 
 <h2 id="elsewhere">Elsewhere</h2>
 
