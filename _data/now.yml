@@ -1,5 +1,11 @@
 - title: "Platesolving for Fun and No Profit"
   url: https://quietlife.net/2026/04/08/platesolving-for-fun-and-no-profit/
-  type: blog
+  type: article
+  date: 2026-04-08
   image: https://quietlife.net/images/artemis-solved-annotation.jpg
   blurb: "Using Claude Code to identify stars and planets in an Artemis II eclipse photo taken from space."
+- title: "Weekend project: whoarewe"
+  url: https://quietlife.net/2026/04/14/weekend-project-whoarewe/
+  type: project
+  date: 2026-04-14
+  blurb: "An Android app that uses rotating 6-digit cryptographic codes to let two people verify each other's identity — a defense against voice deepfakes and social engineering, with no servers or internet required."
