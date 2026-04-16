@@ -66,6 +66,8 @@ A collection of side projects, most built quickly with AI-assisted development t
 
 **[anchor](https://github.com/cwage/anchor)**: Android app for monitoring and interacting with remote tmux sessions over SSH. Chat-like interface, built with Kotlin.
 
+**[whoarewe](https://github.com/cwage/whoarewe)**: Android app for mutual identity verification using rotating 6-digit cryptographic codes. A defense against voice deepfakes and social engineering, with no servers or internet required.
+
 **[radio](https://github.com/cwage/radio)**: Playground for software-defined radio scripts and configs. ADS-B aircraft tracking, HD radio, pager decoding, ACARS aviation data.
 
 **[kobo-notes](https://github.com/cwage/kobo-notes)**: Export highlights and annotations from a Kobo eReader's SQLite database to markdown, plain text, or JSON.
