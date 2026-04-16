@@ -30,5 +30,4 @@ jobs:
           bundle exec htmlproofer ./_site \
             --ignore-status-codes "999,429" \
             --no-enforce-https \
-            --ignore-urls "/^https?:\/\/localhost/" \
-            --swap-urls "^\/chriswage\.com:"
+            --ignore-urls "/^https?:\/\/localhost/"
