@@ -54,6 +54,8 @@ A current sample of whatever bullshit I'm on:
 
 A collection of side projects, most built quickly with AI-assisted development to scratch a specific itch. A lot of these were rapidly prototyped as a proof of concept, both of random ideas/needs and also the LLM tools themselves.
 
+**[whoarewe](https://github.com/cwage/whoarewe)**: Android app for mutual identity verification using rotating 6-digit cryptographic codes. A defense against voice deepfakes and social engineering, with no servers or internet required.
+
 **[staticomment](https://github.com/cwage/staticomment)**: Lightweight comment server for static sites (e.g. jekyll). Accepts form submissions, writes YAML, and commits them to your site's git repo.
 
 **[nash-services](https://nash-services.quietlife.net)**: Web app for browsing Nashville open data (police dispatches, 311 requests, road closures, fire incidents), searchable by location on a map.
