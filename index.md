@@ -30,7 +30,9 @@ A current sample of whatever bullshit I'm on:
 {% endfor %}
 </div>
 </div>
+{% if site.data.now.size > 1 %}
 <script src="{{ '/assets/js/now-carousel.js' | relative_url }}" defer></script>
+{% endif %}
 
 <h2 id="elsewhere">Elsewhere</h2>
 
