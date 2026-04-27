@@ -9,3 +9,8 @@
   type: project
   date: 2026-04-14
   blurb: "An Android app that uses rotating 6-digit cryptographic codes to let two people verify each other's identity — a defense against voice deepfakes and social engineering, with no servers or internet required."
+- title: "Weekend project: agentpen"
+  url: https://quietlife.net/2026/04/27/weekend-project-i-put-a-rubber-on-it/
+  type: project
+  date: 2026-04-27
+  blurb: "A Go-based sandbox for LLM coding tools, built on bubblewrap, seccomp-BPF, and user-space networking, so a misbehaving agent can't read your secrets or phone home."
