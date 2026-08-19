@@ -14,3 +14,9 @@
   type: project
   date: 2026-04-27
   blurb: "A Go-based sandbox for LLM coding tools, built on bubblewrap, seccomp-BPF, and user-space networking, so a misbehaving agent can't read your secrets or phone home."
+- title: "Asterism"
+  url: https://quietlife.net/2026/08/16/asterism/
+  type: project
+  date: 2026-08-16
+  image: https://quietlife.net/images/asterism-winter-wide.png
+  blurb: "A web app that plate-solves night-sky photos from your phone and labels the stars, planets, and constellations in them — no account, location, or compass required."
