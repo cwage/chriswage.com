@@ -20,3 +20,9 @@
   date: 2026-08-16
   image: https://quietlife.net/images/asterism-winter-wide.png
   blurb: "A web app that plate-solves night-sky photos from your phone and labels the stars, planets, and constellations in them — no account, location, or compass required."
+- title: "Claude and the moon"
+  url: https://quietlife.net/2026/09/29/claude-and-the-moon/
+  type: article
+  date: 2026-09-29
+  image: https://quietlife.net/images/moonstack/22-before-after-mild-vs-rl40-1to1.png
+  blurb: "Shooting the moon through a 40-year-old mirror lens, then using Claude Code to measure the real blur, cull shutter-shocked frames, and deconvolve the stack. Including the part where the agent was confidently wrong."
